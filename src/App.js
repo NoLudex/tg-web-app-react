@@ -17,12 +17,11 @@ function App() {
     <div className="App">
       <Headers />
       <Routes>
-        <Route index element = { <Welcome /> } />
-        <Route path = { 'form' } element = { <Form /> } />
+        <Route index element = { <Form /> } />
       </Routes>
     </div>
   );
 }
 
-// <Button onClick={onToggleButton}>Переключатель</Button>
+// <Route path = { 'form' } element = { <Form /> } />
 export default App;
